@@ -80,6 +80,13 @@ body {
 	width:  300px;
 	height: 350px;
   }
+
+  .center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 50px;
+  }
   
   figure img {
 	width: 100%;
@@ -103,4 +110,5 @@ body {
   footer ul {
 	list-style: none;
   }
+
   
