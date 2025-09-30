@@ -3,72 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wilfredo Mateo - Cloud Pro</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Wilfredo Mateo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+        }
+
+        .linkedin-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: #0077b5;
+            color: white;
+            text-decoration: none;
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 119, 181, 0.3);
+        }
+
+        .linkedin-btn:hover {
+            background: #005885;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 119, 181, 0.4);
+        }
+
+        .linkedin-icon {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Wilfredo Mateo - Cloud Pro</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <h2>Hello from Wilfredo Mateo</h2>
-        <p>Your trusted partner in cloud computing. We specialize in AWS solutions, offering expert guidance, comprehensive services, and robust security. Let us elevate your cloud journey.</p>
-    </section>
-
-    <section id="services">
-        <h2>Services</h2>
-            <h4>Hands-On Projects</h4>
-                <li>EC2 Instance Deployment</li>
-                <li>S3 Data Lakes</li>
-                <li>Lambda Functions</li>
-                <li>CloudFormation Templates</li>
-            <h4>Infrastructure as Code (IaC)</h4>
-                <li>Embraced IaC principles to automate infrastructure provisioning</li>
-                <li>Leveraged tools like AWS CloudFormation and Terraform to define resources</li>
-            <h4>Network and Security</h4>
-                <li>Configured Virtual Private Cloud (VPC) components, subnets, and route tables</li>
-                <li>Implemented security groups, NACLs, and IAM policies to enhance security</li>
-            <h4>Monitoring and Troubleshooting</h4>
-                <li>Set up CloudWatch alarms to monitor resource utilization</li>
-                <li>Investigated and resolved issues related to EC2 instances, RDS databases, and Lambda functions</li>
-            <h4>Cost Optimization</h4>
-                <li>Explored cost-effective solutions by choosing the right instance types, storage options, and pricing models</li>
-                <li>Utilized AWS Trusted Advisor to identify cost-saving opportunities</li>
-        </ul>
-    </section>
-
-    <section id="about">
-        <h2>About</h2>
-        <p>AWS Certified, demonstrating a solid understanding of AWS fundamentals. Gained insights into AWS services, pricing models, and best practices.</p>
-        <h3>Professional Development</h3>
-            <li>Engaged with AWS documentation, whitepapers, and online courses</li>
-            <li>Participated in AWS re:Invent sessions and local meetups</li>
-            <li>Leveraged the AWS Free Tier to experiment with various services</li>
-            <li>Built personal projects to reinforce learning</li>
-            <li>Developed strong communication skills to collaborate effectively with cross-functional teams</li>
-            <li>Adapted to agile methodologies and embraced a growth mindset</li>
-            <li>Pursue specialized AWS certifications (e.g., AWS Solutions Architect, AWS Developer)</li>
-            <li>Deepen my knowledge of serverless computing, containerization (AWS Fargate, ECS), and machine learning (AWS SageMaker)</li>
-            <li>Contribute to open-source projects and share my learnings with the community</li>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Information</h2>
-        <p>Email: aws_mateo@proton.me</p>
-        <p>Phone: +1 (726) 842-4486</p>
-    </section>
-
-    <footer>
-        <p>© 2024 Wilfredo Mateo - Cloud Pro</p>
-    </footer>
+    <div class="container">
+        <h1>Wilfredo Mateo</h1>
+        <p>Connect with me on LinkedIn</p>
+        <a href="https://www.linkedin.com/in/wilfredo-mateo-b6959974/" target="_blank" class="linkedin-btn">
+            <svg class="linkedin-icon" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            View LinkedIn Profile
+        </a>
+    </div>
 </body>
 </html>
